@@ -22,6 +22,12 @@
             ]
           },
           {
+              "group": "Data Dictionary",
+              "pages": [
+                "test"
+              ]
+          },
+          {
             "group": "Customization",
             "pages": [
               "essentials/settings",
