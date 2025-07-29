@@ -24,7 +24,8 @@
           {
               "group": "Data Dictionary",
               "pages": [
-                "dicts/primary-fields"
+                "dicts/primary-fields",
+                "dicts/demographics"
               ]
           },
           {
