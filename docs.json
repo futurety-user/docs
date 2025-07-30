@@ -14,22 +14,27 @@
                 "tab": "Data Dictionary",
                 "groups": [
                     {
-                        "group": "Dictionary Overview",
+                        "group": "Overview",
                         "pages": [
                             "dicts/data-dictionary"
                         ]
                     },
                     {
-                        "group": "Field Categories",
+                        "group": "By Category",
                         "pages": [
                             "dicts/primary-fields",
                             "dicts/geographic-fields",
                             "dicts/telephone-fields",
-                            "dicts/household-fields"
+                            "dicts/household-fields",
+                            "dicts/connex/real-estate-fields",
+                            "dicts/connex/market-share-fields",
+                            "dicts/consumer-passions-fields"
+                          
+                            
                         ]
                     },
                     {
-                        "group": "Recommended Fields By Industry",
+                        "group": "By Industry",
                         "pages": [
                             "dicts/recommend/cpg-fields",
                             "dicts/recommend/d2c-fields",
@@ -39,7 +44,7 @@
                         ]
                     },
                     {
-                        "group": "Consumer Clusters",
+                        "group": "By Use Case",
                         "pages": [
                             "dicts/connex/connex-overview"
                         ]
