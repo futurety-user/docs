@@ -20,7 +20,7 @@
                         ]
                     },
                     {
-                        "group": "Data Dictionary",
+                        "group": "Field Categories",
                         "pages": [
                             "dicts/primary-fields",
                             "dicts/geographic-fields",

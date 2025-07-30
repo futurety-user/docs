@@ -3,14 +3,16 @@ title: "Telephone Number"
 description: "The Telephone Number select includes publicly available phones with up to three telephone numbers available for a given record. All telephone numbers are processed for DNC compliance with flags available, but telemarketers are encouraged to perform additional processing prior to a telemarketing campaign. A SAN number is required to output DNC flagged telephone numbers on an order. "
 mode: "wide"
 ---
+
 <Card title="Return to Dictionary Overview" icon="arrow-left-long" horizontal href="/dict/data-dictionary">
   
 </Card>
-| **Field #** | **Field Name Data Dictionary** | **Max Field Length** | **Field Format** | **Values Description** | **Detailed Field Descriptions**                                    |
-| :---------: | :----------------------------: | :------------------: | :--------------: | :--------------------: | :----------------------------------------------------------------: |
-| 41          | PHONE                          | 10                   | VARCHAR          | Phone                  | Public directory assistance and household based telephone number 1 |
-| 42          | DNC                            | 1                    | VARCHAR          | Y - Do Not Call Flag   | Phone Included in the federal level do not call list: Y or null    |
-| 43          | PHONE2                         | 10                   | VARCHAR          | Phone 2                | Public directory assistance and household based telephone number 2 |
-| 44          | DNC2                           | 1                    | VARCHAR          | Y - Do Not Call Flag 2 | Phone Included in the federal level do not call list: Y or null    |
-| 45          | PHONE3                         | 10                   | VARCHAR          | Phone 3                | Public directory assistance and household based telephone number 3 |
-| 46          | DNC3                           | 1                    | VARCHAR          | Y - Do Not Call Flag 3 | Phone Included in the federal level do not call list: Y or null    |
+
+| Field Name | Format  | Values Description     | Detailed Field Descriptions                                        |
+| :--------: | :-----: | :--------------------: | :----------------------------------------------------------------: |
+| PHONE      | VARCHAR | Phone                  | Public directory assistance and household based telephone number 1 |
+| DNC        | VARCHAR | Y - Do Not Call Flag   | Phone Included in the federal level do not call list: Y or null    |
+| PHONE2     | VARCHAR | Phone 2                | Public directory assistance and household based telephone number 2 |
+| DNC2       | VARCHAR | Y - Do Not Call Flag 2 | Phone Included in the federal level do not call list: Y or null    |
+| PHONE3     | VARCHAR | Phone 3                | Public directory assistance and household based telephone number 3 |
+| DNC3       | VARCHAR | Y - Do Not Call Flag 3 | Phone Included in the federal level do not call list: Y or null    |
