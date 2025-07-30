@@ -12,12 +12,15 @@
         "tabs": [
             {
                 "tab": "Data Dictionary",
-                "pages": ["dicts/data-dictionary"
-                  
-                ],
                 "groups": [
                     {
-                        "group": "Match API Schema",
+                        "group": "Dictionary Overview",
+                        "pages": [
+                            "dicts/data-dictionary"
+                        ]
+                    },
+                    {
+                        "group": "Data Dictionary",
                         "pages": [
                             "dicts/primary-fields",
                             "dicts/geographic-fields",
