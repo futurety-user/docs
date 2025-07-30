@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Huckle Docs",
   "colors": {
-    "primary": "#46276B",
-    "light": "#816C9A",
-    "dark": "#BCB1CA"
+    "primary": "#AC98C6",
+    "light": "#66163E",
+    "dark": "#E3A2C5"
   },
   "favicon": "/favicon-image.png",
   "navigation": {
