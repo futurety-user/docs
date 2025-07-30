@@ -1,123 +1,124 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Huckle Docs",
-  "colors": {
-    "primary": "#46276B",
-    "light": "#E3A2C5",
-    "dark": "#46276B"
-  },
-  "favicon": "/favicon-image.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Data Dictionary",
-        "groups": [
-          {
-            "group": "Match API Schema",
-            "pages": [
-              "dicts/primary-fields",
-              "dicts/geographic-fields",
-              "dicts/telephone-fields",
-              "dicts/household-fields"
-              
-            ]
-          },
-          {
-            "group": "Recommended Fields By Industry",
-            "pages": [
-              "dicts/recommend/cpg-fields",
-              "dicts/recommend/d2c-fields",
-              "dicts/recommend/healthcare-fields",
-              "dicts/recommend/home-health-fields",
-              "dicts/recommend/home-services-fields"
-            ]
-          },
-          {
-            "group": "Consumer Clusters",
-            "pages": [
-              "dicts/connex/connex-overview"
-            ]
-          }
-        ]
-      },
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Huckle Docs",
+    "colors": {
+        "primary": "#46276B",
+        "light": "#E3A2C5",
+        "dark": "#46276B"
+    },
+    "favicon": "/favicon-image.png",
+    "navigation": {
+        "tabs": [
             {
-        "tab": "User Guides",
-        "groups": [
-          {
-            "group": "Features",
-            "pages": [
-              "api-reference/introduction"
+                "tab": "Data Dictionary",
+                "pages": ["dicts/data-dictionary"
+                  
+                ],
+                "groups": [
+                    {
+                        "group": "Match API Schema",
+                        "pages": [
+                            "dicts/primary-fields",
+                            "dicts/geographic-fields",
+                            "dicts/telephone-fields",
+                            "dicts/household-fields"
+                        ]
+                    },
+                    {
+                        "group": "Recommended Fields By Industry",
+                        "pages": [
+                            "dicts/recommend/cpg-fields",
+                            "dicts/recommend/d2c-fields",
+                            "dicts/recommend/healthcare-fields",
+                            "dicts/recommend/home-health-fields",
+                            "dicts/recommend/home-services-fields"
+                        ]
+                    },
+                    {
+                        "group": "Consumer Clusters",
+                        "pages": [
+                            "dicts/connex/connex-overview"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "User Guides",
+                "groups": [
+                    {
+                        "group": "Features",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Use Cases",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API reference",
+                "groups": [
+                    {
+                        "group": "API documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoint examples",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Data Dictionary",
+                    "href": "dicts/data-dictionary",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://futurety.com/blog/",
+                    "icon": "newspaper"
+                }
             ]
-          },
-          {
-            "group": "Use Cases",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://futurety.com/blog/",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Huckle Dashboard",
+            "href": "https://app.huckleinsights.com/"
+        }
+    },
+    "footer": {
+        "socials": {
+            "linkedin": "https://www.linkedin.com/company/huckle-inc/"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Huckle Dashboard",
-      "href": "https://app.huckleinsights.com/"
-    }
-  },
-  "footer": {
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/huckle-inc/"
-    }
-  }
 }
