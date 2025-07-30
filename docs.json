@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Data Schema",
+        "tab": "Data Dictionary",
         "groups": [
           {
             "group": "Match API Schema",
@@ -41,6 +41,27 @@
           }
         ]
       },
+            {
+        "tab": "User Guides",
+        "groups": [
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Use Cases",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
       {
         "tab": "API reference",
         "groups": [
