@@ -7,7 +7,7 @@
     "light": "#816C9A",
     "dark": "#BCB1CA"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon-image.png",
   "navigation": {
     "tabs": [
       {
@@ -34,12 +34,9 @@
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Consumer Clusters",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "dicts/connex/connex-overview"
             ]
           },
           {
