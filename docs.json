@@ -112,6 +112,14 @@
         "light": "/logo/light-large.svg",
         "dark": "/logo/dark-large.svg"
     },
+    "api": {
+    "playground": {
+      "display": "interactive"
+    },
+    "examples": {
+      "languages": ["javascript", "curl", "python"]
+    }
+  },
     "navbar": {
         "links": [
             {
