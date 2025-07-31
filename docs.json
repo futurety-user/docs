@@ -26,9 +26,10 @@
                             "dicts/geographic-fields",
                             "dicts/telephone-fields",
                             "dicts/household-fields",
-                            "dicts/connex/real-estate-fields",
-                            "dicts/connex/market-share-fields",
-                            "dicts/consumer-passions-fields"
+                            "dicts/real-estate-fields",
+                            "dicts/market-share-fields",
+                            "dicts/consumer-passions-fields",
+                            "dicts/connex-cluster-fields"
                           
                             
                         ]
