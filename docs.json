@@ -95,9 +95,9 @@
         "global": {
             "anchors": [
                 {
-                    "anchor": "Data Dictionary",
-                    "href": "https://huckle.mintlify.app/dicts/data-dictionary",
-                    "icon": "book-open-cover"
+                    "anchor": "Huckle Platform",
+                    "href": "https://app.huckleinsights.com/",
+                    "icon": "desktop"
                 },
                 {
                     "anchor": "Blog",
