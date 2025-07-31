@@ -109,8 +109,8 @@
         }
     },
     "logo": {
-        "light": "/logo/light-small.svg",
-        "dark": "/logo/dark-small.svg"
+        "light": "/logo/light-large.svg",
+        "dark": "/logo/dark-large.svg"
     },
     "navbar": {
         "links": [
