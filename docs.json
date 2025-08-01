@@ -11,6 +11,9 @@
         "default": "light",
         "strict": false
     },
+    "background": {
+        "decoration": "grid"
+    },
     "favicon": "/favicon-image.png",
     "navigation": {
         "dropdowns": [
