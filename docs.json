@@ -9,9 +9,9 @@
     },
     "favicon": "/favicon-image.png",
     "navigation": {
-        "tabs": [
+        "dropdowns": [
             {
-                "tab": "Data Dictionary",
+                "dropdown": "Data Dictionary",
                 "groups": [
                     {
                         "group": "Overview",
@@ -53,7 +53,7 @@
                 ]
             },
             {
-                "tab": "User Guides",
+                "dropdown": "User Guides",
                 "groups": [
                     {
                         "group": "Features",
@@ -73,7 +73,7 @@
                 ]
             },
             {
-                "tab": "API reference",
+                "dropdown": "API reference",
                 "groups": [
                     {
                         "group": "API documentation",
@@ -112,14 +112,10 @@
         "light": "/logo/light-large.svg",
         "dark": "/logo/dark-large.svg"
     },
-    "api": {
-    "playground": {
-      "display": "interactive"
+  "appearance": {
+        "default": "system",
+        "strict": "false"
     },
-    "examples": {
-      "languages": ["javascript", "curl", "python"]
-    }
-  },
     "navbar": {
         "links": [
             {
