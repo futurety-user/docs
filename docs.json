@@ -50,18 +50,12 @@
                             "dicts/recommend/home-health-fields",
                             "dicts/recommend/home-services-fields"
                         ]
-                    },
-                    {
-                        "group": "By Use Case",
-                        "pages": [
-                            "dicts/connex/connex-overview"
-                        ]
                     }
                 ]
             },
             {
                 "dropdown": "User Guides",
-                "icon": "circle-question",
+                "icon": "arrow-progress",
                 "groups": [
                     {
                         "group": "Features",
