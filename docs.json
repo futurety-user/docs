@@ -8,7 +8,7 @@
         "dark": "#46276B"
     },
     "appearance": {
-        "default": "light",
+        "default": "system",
         "strict": false
     },
     "favicon": "/favicon-image.png",
