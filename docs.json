@@ -16,6 +16,7 @@
         "dropdowns": [
             {
                 "dropdown": "Data Dictionary",
+                "icon": "book-atlas",
                 "groups": [
                     {
                         "group": "Overview",
@@ -60,26 +61,29 @@
             },
             {
                 "dropdown": "User Guides",
+                "icon": "circle-question",
                 "groups": [
                     {
                         "group": "Features",
                         "pages": [
-                            "api-reference/introduction"
+                            "user-guides/use-cases/ai-insights"
                         ]
                     },
                     {
                         "group": "Use Cases",
                         "pages": [
-                            "api-reference/endpoint/get",
-                            "api-reference/endpoint/create",
-                            "api-reference/endpoint/delete",
-                            "api-reference/endpoint/webhook"
+                            "user-guides/use-cases/ai-insights",
+                            "user-guides/use-cases/campaign-strategy",
+                            "user-guides/use-cases/targeted-marketing",
+                            "user-guides/use-cases/persona-generation",
+                            "user-guides/use-cases/crm-enrichment"
                         ]
                     }
                 ]
             },
             {
                 "dropdown": "API reference",
+                "icon": "webhook",
                 "groups": [
                     {
                         "group": "API documentation",
@@ -103,20 +107,6 @@
     "logo": {
         "light": "/logo/light-large.svg",
         "dark": "/logo/dark-large.svg"
-    },
-
-    "navbar": {
-        "links": [
-            {
-                "label": "Support",
-                "href": "mailto:"
-            }
-        ],
-        "primary": {
-            "type": "button",
-            "label": "Huckle Dashboard",
-            "href": "https://app.huckleinsights.com/"
-        }
     },
     "footer": {
         "socials": {
