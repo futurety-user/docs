@@ -114,7 +114,7 @@
     },
   "appearance": {
         "default": "system",
-        "strict": "false"
+        "strict": false
     },
     "navbar": {
         "links": [
