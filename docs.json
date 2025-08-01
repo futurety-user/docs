@@ -85,11 +85,11 @@
                 ]
             },
             {
-                "dropdown": "API reference",
+                "dropdown": "API Reference",
                 "icon": "webhook",
                 "groups": [
                     {
-                        "group": "API documentation",
+                        "group": "Overview",
                         "pages": [
                             "api-reference/introduction"
                         ]
