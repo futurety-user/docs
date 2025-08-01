@@ -57,10 +57,19 @@
                 "dropdown": "User Guides",
                 "icon": "arrow-progress",
                 "groups": [
-                    {
+                   {
+                        "group": "Overview",
+                        "pages": [
+                            "user-guides/user-guid-index"
+                        ]
+                    }, 
+                  {
                         "group": "Features",
                         "pages": [
-                            "user-guides/use-cases/ai-insights"
+                            "user-guides/features/huckle-match",
+                            "user-guides/features/ai-ml-insights",
+                            "user-guides/features/audience-builder",   
+                          "user-guides/features/insights-explorer"
                         ]
                     },
                     {
