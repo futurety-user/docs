@@ -7,6 +7,10 @@
         "light": "#E3A2C5",
         "dark": "#46276B"
     },
+    "appearance": {
+        "default": "light",
+        "strict": false
+    },
     "favicon": "/favicon-image.png",
     "navigation": {
         "dropdowns": [
@@ -94,30 +98,13 @@
                     }
                 ]
             }
-        ],
-        "global": {
-            "anchors": [
-                {
-                    "anchor": "Huckle Platform",
-                    "href": "https://app.huckleinsights.com/",
-                    "icon": "desktop"
-                },
-                {
-                    "anchor": "Blog",
-                    "href": "https://futurety.com/blog/",
-                    "icon": "newspaper"
-                }
-            ]
-        }
+        ]
     },
     "logo": {
         "light": "/logo/light-large.svg",
         "dark": "/logo/dark-large.svg"
     },
-  "appearance": {
-        "default": "system",
-        "strict": false
-    },
+
     "navbar": {
         "links": [
             {
