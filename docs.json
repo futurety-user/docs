@@ -52,58 +52,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "dropdown": "User Guides",
-                "icon": "arrow-progress",
-                "groups": [
-                   {
-                        "group": "Overview",
-                        "pages": [
-                            "user-guides/user-guide-index"
-                        ]
-                    }, 
-                  {
-                        "group": "Features",
-                        "pages": [
-                            "user-guides/features/huckle-match",
-                            "user-guides/features/ai-ml-insights",
-                            "user-guides/features/audience-builder",   
-                          "user-guides/features/insights-explorer"
-                        ]
-                    },
-                    {
-                        "group": "Use Cases",
-                        "pages": [
-                            "user-guides/use-cases/ai-insights",
-                            "user-guides/use-cases/campaign-strategy",
-                            "user-guides/use-cases/targeted-marketing",
-                            "user-guides/use-cases/persona-generation",
-                            "user-guides/use-cases/crm-enrichment"
-                        ]
-                    }
-                ]
-            },
-            {
-                "dropdown": "API Reference",
-                "icon": "webhook",
-                "groups": [
-                    {
-                        "group": "Overview",
-                        "pages": [
-                            "api-reference/introduction"
-                        ]
-                    },
-                    {
-                        "group": "Endpoint examples",
-                        "pages": [
-                            "api-reference/endpoint/get",
-                            "api-reference/endpoint/create",
-                            "api-reference/endpoint/delete",
-                            "api-reference/endpoint/webhook"
-                        ]
-                    }
-                ]
             }
         ]
     },
